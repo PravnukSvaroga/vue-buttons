@@ -1,6 +1,6 @@
 
 <template>
-  <button class="custom-btn" :class="className">
+  <button class="eleventh-btn" :class="className">
     <slot>
       content
     </slot>
@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     className () {
-      return `custom-btn__${this.type}`;
+      return `eleventh-btn__${this.type}`;
 
     }
   }
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style scoped lang="less">
-  .custom-btn {
+  .eleventh-btn {
     font-family: "Montserrat Alternates", sans-serif;
     padding: 15px 32px;
     text-align: center;
