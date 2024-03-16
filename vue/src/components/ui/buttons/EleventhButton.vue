@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "CustomBtn",
+  name: "EleventhPage",
   props: {
     type: String,
   },
@@ -56,6 +56,12 @@ export default {
       color: white;
       border: 2px solid #f0c502;
 
+      &:active {
+        color: white;
+        background-color: #f0c502;
+        border-radius: 50px;
+      }
+
       &:hover {
         background-color: white;
         color: #f0c502;
@@ -68,6 +74,12 @@ export default {
       color: white;
       border: 2px solid #e17b01;
 
+      &:active {
+        color: white;
+        background-color: #e17b01;
+        border-radius: 50px;
+      }
+
       &:hover {
         background-color: white;
         color: #e17b01;
@@ -79,6 +91,12 @@ export default {
       background-color: #b8154c;
       color: white;
       border: 2px solid #b8154c;
+
+      &:active {
+        color: white;
+        background-color: #b8154c;
+        border-radius: 50px;
+      }
 
       &:hover {
         background-color: white;

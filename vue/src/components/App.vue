@@ -2,7 +2,6 @@
   <div>
     <RouterView />
     <ModalContainer />
-<!--    <router-view></router-view>-->
   </div>
 </template>
 
